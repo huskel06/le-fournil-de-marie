@@ -1,0 +1,14 @@
+# Robots.txt — Le Fournil de Marie
+# https://lefournildemarie-nantes.fr
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /assets/generated/
+
+# Sitemap
+Sitemap: https://lefournildemarie-nantes.fr/sitemap.xml
+
+# Crawl-delay (Google respects this)
+Crawl-delay: 10
