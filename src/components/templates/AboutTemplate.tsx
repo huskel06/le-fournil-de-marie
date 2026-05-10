@@ -37,7 +37,7 @@ export function AboutTemplate() {
                             transition={{ duration: 0.8, delay: 0.2 }}
                         >
                             <Frame
-                                src="/assets/photos/fournil.jpg"
+                                src="/assets/photos/fournil.webp"
                                 alt="Notre fournil au coeur de Nantes"
                                 variant="chic"
                                 caption="Notre fournil au coeur de Nantes"

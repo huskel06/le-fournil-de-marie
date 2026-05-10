@@ -5,6 +5,7 @@ import { Heading } from "@/components/atoms/Heading";
 import { Text } from "@/components/atoms/Text";
 import { Button } from "@/components/atoms/Button";
 import { NavTabs } from "@/components/organisms/NavTabs";
+import { OptimizedImage } from "@/components/atoms/Image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -94,17 +95,13 @@ export function HeroSection({ className }: HeroSectionProps) {
                     >
                         <div className="gold-border p-3 marble-bg">
                             <div className="aspect-[4/5] bg-surface overflow-hidden relative">
-                                <div className="absolute inset-0 flex items-center justify-center text-chic-parchment">
-                                    <div className="text-center p-8">
-                                        <svg viewBox="0 0 80 80" className="w-20 h-20 mx-auto mb-4 text-chic-accent/30" fill="currentColor">
-                                            <circle cx="40" cy="40" r="38" stroke="currentColor" strokeWidth="2" fill="none" />
-                                            <path d="M25 40 Q40 20 55 40 Q40 60 25 40" stroke="currentColor" strokeWidth="1.5" fill="none" />
-                                        </svg>
-                                        <p className="font-serif text-sm text-chic-text/30 italic">
-                                            -- Photographie artisanale --
-                                        </p>
-                                    </div>
-                                </div>
+                                <OptimizedImage
+                                    src="/assets/photos/fournil.webp"
+                                    alt="Le Fournil de Marie — boulangerie artisanale à Nantes"
+                                    fill
+                                    className="object-cover"
+                                    sizes="(max-width: 768px) 100vw, 50vw"
+                                />
                             </div>
                         </div>
 

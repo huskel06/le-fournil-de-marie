@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { SITE } from "@/lib/constants";
 import { Header } from "@/components/organisms/Header";
 import { Footer } from "@/components/organisms/Footer";
-import { Cursor } from "@/components/atoms/Cursor";
 import { LenisProvider } from "@/components/atoms/LenisProvider";
 import { JsonLd } from "@/components/atoms/JsonLd";
 import "./globals.css";
@@ -198,7 +197,6 @@ export default function RootLayout({
           id="jsonld-localbusiness"
         />
         <LenisProvider>
-          <Cursor />
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />

@@ -54,7 +54,7 @@ export const SITE = {
     images: {
         og: "/og-image.jpg",
         logo: "/logo.png",
-        bakery: "/photos/fournil.jpg",
+        bakery: "/photos/fournil.webp",
     },
 } as const;
 
@@ -123,9 +123,9 @@ export const ABOUT_VALUES = [
 ] as const;
 
 export const ABOUT_TEAM = [
-    { name: "Marie Lecomte", role: "Boulangere-patissiere, fondatrice", image: "/assets/photos/marie.jpg" },
-    { name: "Antoine Dubois", role: "Chef boulanger", image: "/assets/photos/antoine.jpg" },
-    { name: "Camille Roux", role: "Patissiere", image: "/assets/photos/camille.jpg" },
+    { name: "Marie Lecomte", role: "Boulangere-patissiere, fondatrice", image: "/assets/photos/marie.webp" },
+    { name: "Antoine Dubois", role: "Chef boulanger", image: "/assets/photos/antoine.webp" },
+    { name: "Camille Roux", role: "Patissiere", image: "/assets/photos/camille.webp" },
 ] as const;
 
 export const ABOUT_STATS = [
